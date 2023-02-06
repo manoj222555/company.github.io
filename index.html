@@ -1,0 +1,192 @@
+<html>
+<head>
+<title>wero</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+   <div id="header">
+       <div class="container">
+	        <div class="row">
+			     <div class="col-md-4">
+				     <h2 class="logo">company name</h2>
+				 </div>
+				 <div class="col-md-8">
+				      <ul id="menu">
+					      <li><a href="#">home</a></li>
+						  <li><a href="about_us.html">about us</a></li>
+						  <li><a href="gallery.html">gallery</a></li>
+						  <li><a href="products.html">products</a></li>
+						  <li><a href="contact_us.html">contact us</a></li>
+					  </ul>
+				 </div>
+			</div>
+	   </div>
+   </div>
+   
+   
+   <div id="content">
+       <div class="container">
+	       <div class="row">
+		       <div class="col-md-6 col-12">
+			      <div class="heading">
+				     <div class="loading"></div>
+					 <div class="loading1"></div>
+					 <div id="showclock"></div>
+			       <h2><marquee direction="left">welcome to our place</marquee></h2>
+				   <p>Tourism Essay – Tourism is a major economic activity that has developed significantly over the years. It’s an activity that can be recognized in both developed and developing nations. In general terms, tourism is the movement of a person from one place to another to visit and mesmerize the beauty of that place or to have fun.</p>
+			       </div>
+				   <button onclick="change()" class="button">login</button>
+		        </div>
+			   <div class="col-md-6 col-12">
+			        <div class="image">
+			        <img src="wallpaper.jpg"/>
+					</div>
+			   </div>
+			</div>
+		</div>
+   </div>
+   
+   <div id="cards">
+        <div class="container">
+		    <div class="row">
+			<h2 id="text">BEAUTIFUL IMAGES</h2>
+			   <div class="col-md-4 col-12">
+			      <div class="img1">
+				    <img src="img1.jpg">
+				  </div>
+				</div> 
+                <div class="col-md-4 col-12">
+			      <div class="img1">
+				  <img src="img2.jpg">
+				  </div>
+				</div>
+                <div class="col-md-4 col-12">
+			      <div class="img1">
+				  <img src="img3.jpg">
+				  </div>
+				</div>  				
+				 
+			   
+			</div>
+		</div>
+   </div>
+   
+   <div class="testinomial">
+       <div class="container">
+	       <div class="row">
+		   <h2 class="testino">TESTINOMIAL</h2>
+		      <div class="col-md-4">
+			  <div class="column">
+			     <img src="img4.jpg">
+				 <h2>Cherry</h2>
+				 <p>economic activity that has developed </br>significantly over the years.</p>
+			  </div>
+			  </div>
+			 
+			  <div class="col-md-4">
+			     <div class="column">
+			     <img src="img5.jpg">
+				 <h2>Harry</h2>
+				 <p>economic activity that has developed</br> significantly over the years.</p>
+				 </div>
+			  </div>
+			  
+			  	 <div class="col-md-4">
+			     <div class="column">
+			     <img src="img6.jpg">
+				 <h2>Bob</h2>
+				 <p>economic activity that has developed</br> significantly over the years.</p>
+				 </div>
+			  </div>
+			  
+			  
+		   </div>
+	   </div>
+   </div>
+   
+   <div id="middle">
+       <div class="container">
+	       <div class="row">
+		   <h2 class="pos">Gallery</h2>
+		       <div class="col-md-4">
+			       <div class="poster">
+				       <img src="img7.jpg">
+				   </div>
+			   </div>
+			   
+			   <div class="col-md-4">
+			       <div class="poster">
+				       <img src="img8.jpg">
+				   </div>
+			   </div>
+			   
+			   <div class="col-md-4">
+			       <div class="poster">
+				       <img src="img9.jpg">
+				   </div>
+			   </div>
+			   
+			   
+		   </div>
+	   </div>
+   </div>
+   
+   <div id="footer">
+       <div class="container">
+	       <div class="row">
+		      <div class="col-md-4">
+		       <div class="foot">
+			      <p>Contact us:-9413683089</br></br>
+				     Contact us:-9416549809</br></br>
+					 Contact us:-8967584458</br></br>
+				   </p>
+			   </div>
+			  </div>
+			  
+			  <div class="col-md-4">
+		       <div class="foot">
+			      <p>Contact us:-9413683089</br></br>
+				     Contact us:-9416549809</br></br>
+					 Contact us:-8967584458</br></br>
+				   </p>
+			   </div>
+			  </div>
+			  
+			  <div class="col-md-4">
+		       <div class="foot">
+			      <p>Contact us:-9413683089</br></br>
+				     Contact us:-9416549809</br></br>
+					 Contact us:-8967584458</br></br>
+				   </p>
+			   </div>
+			  </div>
+			      <div class="col-12">
+				     <h1 class="copy">
+			           Manoj Kumar@copyright&copy2022
+				  </div>
+			  
+				    
+			  </div>
+			  
+		   </div>
+	</div>
+   
+   
+   
+<script>
+   function change(){
+      document.getElementById('content').style.background="#1abc9c";
+   }
+   
+   var clock = setInterval(clocktiming,1000)
+	 
+	    function clocktiming(){
+		 var d = new Date();
+		 var thapa = d.toLocaleTimeString();
+		 document.getElementById('showclock').innerHTML = thapa;
+		}
+</script>
+</body>
+</html>
